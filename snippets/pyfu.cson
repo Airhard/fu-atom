@@ -1,0 +1,8 @@
+'.source.py':
+  'Fu The First':
+    'prefix': 'fupy-working'
+    'body': 'Yes!'
+
+  'Fu The Second':
+    'prefix': 'fupy-working-still'
+    'body': 'Yes!'
