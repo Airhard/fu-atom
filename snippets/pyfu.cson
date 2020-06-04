@@ -1,8 +1,15 @@
-'.source.py':
-  'Fu The First':
-    'prefix': 'fupy-working'
-    'body': 'Yes!'
-
-  'Fu The Second':
-    'prefix': 'fupy-working-still'
-    'body': 'Yes!'
+'.source.python':
+  'IfElifElse':
+    'prefix': 'if_elif_else'
+    'body': """
+      if ${1:true}:
+          $2
+      elif ${3:false}:
+          $4
+      else:
+          $5
+      $6
+    """
+  'MyPrint':
+    'prefix': 'print'
+    'body': 'print("$1")$2'
