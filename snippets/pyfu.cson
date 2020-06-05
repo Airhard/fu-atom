@@ -13,3 +13,13 @@
   'MyPrint':
     'prefix': 'print'
     'body': 'print("$1")$2'
+
+  'class init':
+    'prefix': 'class_init'
+    'body': """
+      class ${1Classname}(object):
+
+        def __init__(self):
+          ${2pass}
+      $3
+    """
