@@ -1,0 +1,1360 @@
+'.html':
+
+#===================
+  'BS Alert Primary':
+    'prefix': 'bsAlertPrimary'
+    'body': """
+<div class="alert alert-primary" role="alert">
+    $1
+</div>
+"""
+
+#===================
+  'BS Alert Secondary':
+    'prefix': 'bsAlertSecondary'
+    'body': """
+<div class="alert alert-secondary" role="alert">
+    $1
+</div>
+"""
+
+#===================
+  'BS Alert success':
+    'prefix': 'bsAlertSuccess'
+    'body': """
+<div class="alert alert-success" role="alert">
+    $1
+</div>
+"""
+
+#===================
+  'BS Alert Danger':
+    'prefix': 'bsAlertDanger'
+    'body': """
+<div class="alert alert-danger" role="alert">
+    $1
+</div>
+"""
+
+#===================
+  'BS Alert Warning':
+    'prefix': 'bsAlertWarning'
+    'body': """
+<div class="alert alert-danger" role="alert">
+    $1
+</div>
+"""
+
+#===================
+  'BS Alert Info':
+    'prefix': 'bsAlertInfo'
+    'body': """
+<div class="alert alert-info" role="alert">
+    $1
+</div>
+"""
+
+#===================
+  'BS Alert Light':
+    'prefix': 'bsAlertLight'
+    'body': """
+<div class="alert alert-light" role="alert">
+    $1
+</div>
+"""
+
+#===================
+  'BS Alert Dark':
+    'prefix': 'bsAlertDark'
+    'body': """
+<div class="alert alert-dark" role="alert">
+    $1
+</div>
+"""
+
+#===================
+  'BS Alert Full Content':
+    'prefix': 'bsAlertFullContent'
+    'body': """
+<div class="alert alert-success" role="alert">
+    <h4 class="alert-heading">Well done!</h4>
+    <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+    <hr>
+    <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+</div>
+"""
+
+#===================
+  'BS Alert With Dismiss Button Example':
+    'prefix': 'bsAlertDismisButton'
+    'body': """
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+    $1<strong>Holy guacamole!</strong> You should check in on some of those fields below.
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+"""
+#===================
+  'BS Badge Primary':
+    'prefix': 'bsBadgePrimary'
+    'body': """
+<span class="badge badge-primary">Badge$1</span>
+"""
+
+#===================
+  'BS Badge Secondary':
+    'prefix': 'bsBadgeSecondary'
+    'body': """
+<span class="badge badge-secondary">Badge$1</span>
+"""
+
+#===================
+  'BS Badge Success':
+    'prefix': 'bsBadgeSuccess'
+    'body': """
+<span class="badge badge-success">Badge$1</span>
+"""
+
+#===================
+  'BS Badge Danger':
+    'prefix': 'bsBadgeDanger'
+    'body': """
+<span class="badge badge-danger">Badge$1</span>
+"""
+
+#===================
+  'BS Badge Warning':
+    'prefix': 'bsBadgeWarning'
+    'body': """
+<span class="badge badge-warning">Badge$1</span>
+"""
+
+#===================
+  'BS Badge Info':
+    'prefix': 'bsBadgeInfo'
+    'body': """
+<span class="badge badge-info">Badge$1</span>
+"""
+
+#===================
+  'BS Badge Light':
+    'prefix': 'bsBadgeLight'
+    'body': """
+<span class="badge badge-light">Badge$1</span>
+"""
+
+#===================
+  'BS Badge Dark':
+    'prefix': 'bsBadgeDark'
+    'body': """
+<span class="badge badge-dark">Badge$1</span>
+"""
+#===================
+  'BS Breadcrumb One':
+    'prefix': 'bsBreadcrumbOne'
+    'body': """
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item active" aria-current="page">Home$1</li>
+    </ol>
+</nav>
+"""
+
+#===================
+  'BS Breadcrumb Two':
+    'prefix': 'bsBreadcrumbTwo'
+    'body': """
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Home$1</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Library</li>
+    </ol>
+</nav>
+"""
+#=================== standard
+  'BS Button Primary':
+    'prefix': 'bsButtonPrimary'
+    'body': """
+<button type="button" class="btn btn-primary">Btn$1</button>
+"""
+
+#=================== standard
+  'BS Button Secondary':
+    'prefix': 'bsButtonSecondary'
+    'body': """
+<button type="button" class="btn btn-secondary">Btn$1</button>
+"""
+
+#=================== standard
+  'BS Button Success':
+    'prefix': 'bsButtonSuccess'
+    'body': """
+<button type="button" class="btn btn-success">Btn$1</button>
+"""
+
+#=================== standard
+  'BS Button Danger':
+    'prefix': 'bsButtonDanger'
+    'body': """
+<button type="button" class="btn btn-danger">Btn$1</button>
+"""
+
+#=================== standard
+  'BS Button Warning':
+    'prefix': 'bsButtonWarning'
+    'body': """
+<button type="button" class="btn btn-warning">Btn$1</button>
+"""
+
+#=================== standard
+  'BS Button Info':
+    'prefix': 'bsButtonInfo'
+    'body': """
+<button type="button" class="btn btn-info">Btn$1</button>
+"""
+
+#=================== standard
+  'BS Button Light':
+    'prefix': 'bsButtonLight'
+    'body': """
+<button type="button" class="btn btn-light">Btn$1</button>
+"""
+
+#=================== standard
+  'BS Button Dark':
+    'prefix': 'bsButtonDark'
+    'body': """
+<button type="button" class="btn btn-dark">Btn$1</button>
+"""
+
+
+#=================== outline
+  'BS Button Primary Outline':
+    'prefix': 'bsButtonOutlinePrimary'
+    'body': """
+<button type="button" class="btn btn-outline-primary">Btn$1</button>
+"""
+
+#=================== outline
+  'BS Button Secondary Outline':
+    'prefix': 'bsButtonOutlineSecondary'
+    'body': """
+<button type="button" class="btn btn-outline-secondary">Btn$1</button>
+"""
+
+#=================== outline
+  'BS Button Success Outline':
+    'prefix': 'bsButtonOutlineSuccess'
+    'body': """
+<button type="button" class="btn btn-outline-success">Btn$1</button>
+"""
+
+#=================== outline
+  'BS Button Danger Outline':
+    'prefix': 'bsButtonOutlineDanger'
+    'body': """
+<button type="button" class="btn btn-outline-danger">Btn$1</button>
+"""
+
+#=================== outline
+  'BS Button Warning Outline':
+    'prefix': 'bsButtonOutlineWarning'
+    'body': """
+<button type="button" class="btn btn-outline-warning">Btn$1</button>
+"""
+
+#=================== outline
+  'BS Button Info Outline':
+    'prefix': 'bsButtonOutlineInfo'
+    'body': """
+<button type="button" class="btn btn-outline-info">Btn$1</button>
+"""
+
+#=================== outline
+  'BS Button Light Outline':
+    'prefix': 'bsButtonOutlineLight'
+    'body': """
+<button type="button" class="btn btn-outline-light">Btn$1</button>
+"""
+
+#=================== outline
+  'BS Button Dark Outline':
+    'prefix': 'bsButtonOutlineDark'
+    'body': """
+<button type="button" class="btn btn-outline-dark">Btn$1</button>
+"""
+#===================
+  'BS Button Group Basic':
+    'prefix': 'bsBtg'
+    'body': """
+<div class="btn-group" role="group" aria-label="Basic example">
+    <button type="button" class="btn btn-secondary">Left</button>
+    <button type="button" class="btn btn-secondary">Middle</button>
+    <button type="button" class="btn btn-secondary">Right</button>
+</div>
+"""
+
+#===================
+  'BS Button Group in the Toolbar':
+    'prefix': 'bsBtgToolbar'
+    'body': """
+<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+    <div class="btn-group mr-2" role="group" aria-label="First group">
+        <button type="button" class="btn btn-secondary">1</button>
+        <button type="button" class="btn btn-secondary">2</button>
+        <button type="button" class="btn btn-secondary">3</button>
+        <button type="button" class="btn btn-secondary">4</button>
+    </div>
+    <div class="btn-group mr-2" role="group" aria-label="Second group">
+        <button type="button" class="btn btn-secondary">5</button>
+        <button type="button" class="btn btn-secondary">6</button>
+        <button type="button" class="btn btn-secondary">7</button>
+    </div>
+    <div class="btn-group" role="group" aria-label="Third group">
+        <button type="button" class="btn btn-secondary">8</button>
+      </div>
+</div>
+"""
+
+#===================
+  'BS Button Group and Dropdown Button':
+    'prefix': 'bsBtgAndDropdown'
+    'body': """
+<div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+    <button type="button" class="btn btn-secondary">1</button>
+    <button type="button" class="btn btn-secondary">2</button>
+    <div class="btn-group" role="group">
+        <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown
+        </button>
+        <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+            <a class="dropdown-item" href="#">Dropdown link</a>
+            <a class="dropdown-item" href="#">Dropdown link</a>
+        </div>
+    </div>
+</div>
+"""
+
+#===================
+  'BS Button Group Vertical':
+    'prefix': 'bsBtgAndDropdown'
+    'body': """
+<div class="btn-group-vertical" role="group" aria-label="Button group with nested dropdown">
+    <button type="button" class="btn btn-secondary">1</button>
+    <button type="button" class="btn btn-secondary">2</button>
+    <div class="btn-group" role="group">
+        <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown
+        </button>
+        <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+            <a class="dropdown-item" href="#">Dropdown link</a>
+            <a class="dropdown-item" href="#">Dropdown link</a>
+        </div>
+    </div>
+</div>
+"""
+#===================
+  'BS Card':
+    'prefix': 'bsCard'
+    'body': """
+<div class="card" style="width: 18rem;">
+    <div class="card-header">
+        Featured
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+    <div class="card-footer">
+        2 days ago
+    </div>
+</div>
+"""
+
+#===================
+  'BS Card Image':
+    'prefix': 'bsCardImage'
+    'body': """
+<div class="card" style="width: 18rem;">
+    <img src="https://digitalpromise.org/wp-content/uploads/2017/04/image3.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">
+            Some quick example text to build on the card title and make up the bulk of the card's content.
+        </p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+</div>
+"""
+
+#===================
+  'BS Card List':
+    'prefix': 'bsCardList'
+    'body': """
+<div class="card" style="width: 18rem;">
+    <div class="card-header">
+        Featured
+    </div>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">Cras justo odio</li>
+        <li class="list-group-item">Dapibus ac facilisis in</li>
+        <li class="list-group-item">Vestibulum at eros</li>
+    </ul>
+</div>
+"""
+
+#===================
+  'BS Card Horizontal Layout':
+    'prefix': 'bsCardHorizontal'
+    'body': """
+<div class="card mb-3" style="max-width: 540px;">
+    <div class="row no-gutters">
+        <div class="col-md-4">
+            <img src="http://www.hdiphonewallpapers.us/phone-wallpapers/phones/11114G44027.jpg" class="card-img" alt="...">
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+    </div>
+</div>
+"""
+#===================
+  'BS Carousel Standard (Slides Only)':
+    'prefix': 'bsCarousel'
+    'body': """
+<div class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://digitalpromise.org/wp-content/uploads/2017/04/image4.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="https://digitalpromise.org/wp-content/uploads/2017/04/image2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="https://digitalpromise.org/wp-content/uploads/2017/04/image3.jpg" class="d-block w-100" alt="...">
+        </div>
+    </div>
+</div>
+"""
+
+#===================
+  'BS Carousel with Control':
+    'prefix': 'bsCarouselControl'
+    'body': """
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://digitalpromise.org/wp-content/uploads/2017/04/image4.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="https://digitalpromise.org/wp-content/uploads/2017/04/image3.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="https://digitalpromise.org/wp-content/uploads/2017/04/image2.jpg" class="d-block w-100" alt="...">
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+"""
+#===================
+  'BS Collapse toggle trigger from a button':
+    'prefix': 'bsCollapse'
+    'body': """
+<div>
+    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+        Button with data-target
+    </button>
+</div>
+<div class="collapse" id="collapseExample">
+    <div class="card card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+    </div>
+</div>
+"""
+
+#===================
+  'BS Accordion':
+    'prefix': 'bsAccordion'
+    'body': """
+<div class="accordion" id="accordionExample">
+    <div class="card">
+        <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Collapsible Group Item #1
+                </button>
+            </h2>
+        </div>
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+                occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Collapsible Group Item #2
+                </button>
+            </h2>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+                occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Collapsible Group Item #3
+                </button>
+            </h2>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+                occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+        </div>
+    </div>
+</div>
+"""
+#===================
+  'BS Dropdown':
+    'prefix': 'bsDropdown'
+    'body': """
+<div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Dropdown button
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+    </div>
+</div>
+"""
+
+#===================
+  'BS Dropdown with color; Primary, Secondary, Success, Info, Warning, Danger':
+    'prefix': 'bsDropdownColor'
+    'body': """
+<div class="btn-group">
+    <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Action
+    </button>
+    <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Separated link</a>
+    </div>
+</div>
+"""
+
+#===================
+  'BS Dropdown with outline color; Primary, Secondary, Success, Info, Warning, Danger':
+    'prefix': 'bsDropdownOutline'
+    'body': """
+<div class="btn-group">
+    <button type="button" class="btn btn-outline-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Action
+    </button>
+    <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Separated link</a>
+    </div>
+</div>
+"""
+
+#===================
+  'BS Dropdown with split button. You can still add theme; Primary, Secondary, Success, Info, Warning, Danger':
+    'prefix': 'bsDropdownSplit'
+    'body': """
+<div class="btn-group">
+    <button type="button" class="btn btn-danger">Action</button>
+    <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <span class="sr-only">Toggle Dropdown</span>
+    </button>
+    <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Separated link</a>
+    </div>
+</div>
+"""
+
+#===================
+  'BS Dropup':
+    'prefix': 'bsDropup'
+    'body': """
+<div class="btn-group dropup">
+    <button type="button" class="btn btn-danger">Action</button>
+    <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Separated link</a>
+    </div>
+</div>
+"""
+
+#===================
+  'BS Dropright':
+    'prefix': 'bsDropright'
+    'body': """
+<div class="btn-group dropright">
+    <button type="button" class="btn btn-danger">Action</button>
+    <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Separated link</a>
+    </div>
+</div>
+"""
+
+#===================
+  'BS Dropleft':
+    'prefix': 'bsDropleft'
+    'body': """
+<div class="btn-group dropleft">
+    <button type="button" class="btn btn-danger">Action</button>
+    <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Separated link</a>
+    </div>
+</div>
+"""
+#===================
+  'BS Form':
+    'prefix': 'bsForm'
+    'body': """
+<form>
+    <div class="form-group">
+        <label for="inputEmail3" class="col-md-2 col-form-label">Email</label>
+        <input type="email" class="form-control" id="inputEmail3">
+    </div>
+    <div class="form-group">
+        <label for="inputPassword3" class="col-md-2 col-form-label">Password</label>
+        <input type="password" class="form-control" id="inputPassword3">
+    </div>
+    <div class="form-group">
+        <label for="select4" class="col-md-2 col-form-label">Country</label>
+        <select class="form-control" id="select4">
+            <option>Indonesia</option>
+            <option>Thailand</option>
+            <option>Malaysia</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="file5" class="col-md-2 col-form-label">File</label>
+        <div class="custom-file">
+            <input type="file" class="custom-file-input" id="customFile">
+            <label class="custom-file-label" for="customFile">Choose file</label>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="formControlRange" class="col-md-2 col-form-label">Range</label>
+        <input type="range" class="custom-range" min="0" max="5" step="0.5" id="customRange3">
+    </div>
+    <div class="form-group">
+        <legend class="col-form-label col-md-2 pt-0">Radios</legend>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+            <label class="form-check-label" for="gridRadios1">
+                First radio
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+            <label class="form-check-label" for="gridRadios2">
+                Second radio
+            </label>
+        </div>
+        <div class="form-check disabled">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
+            <label class="form-check-label" for="gridRadios3">
+                Third disabled radio
+            </label>
+        </div>
+    </fieldset>
+    <div class="form-group">
+        <div class="col-md-2">Checkbox</div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck1">
+            <label class="form-check-label" for="gridCheck1">
+                Example checkbox
+            </label>
+        </div>
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Sign in</button>
+    </div>
+</form>
+"""
+
+#===================
+  'BS Form Horizontal':
+    'prefix': 'bsFormHorizontal'
+    'body': """
+<form>
+    <div class="form-group row">
+        <label for="inputEmail3" class="col-md-2 col-form-label">Email</label>
+        <div class="col-md-10">
+            <input type="email" class="form-control" id="inputEmail3">
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="inputPassword3" class="col-md-2 col-form-label">Password</label>
+        <div class="col-md-10">
+            <input type="password" class="form-control" id="inputPassword3">
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="select4" class="col-md-2 col-form-label">Country</label>
+        <div class="col-md-10">
+            <select class="form-control" id="select4">
+                <option>Indonesia</option>
+                <option>Thailand</option>
+                <option>Malaysia</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="file5" class="col-md-2 col-form-label">File</label>
+        <div class="col-md-10">
+            <div class="custom-file">
+                <input type="file" class="custom-file-input" id="customFile">
+                <label class="custom-file-label" for="customFile">Choose file</label>
+            </div>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="formControlRange" class="col-md-2 col-form-label">Range</label>
+        <div class="col-md-10">
+            <input type="range" class="custom-range" min="0" max="5" step="0.5" id="customRange3">
+        </div>
+    </div>
+    <fieldset class="form-group">
+        <div class="row">
+            <legend class="col-form-label col-md-2 pt-0">Radios</legend>
+            <div class="col-md-10">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                    <label class="form-check-label" for="gridRadios1">
+                        First radio
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                    <label class="form-check-label" for="gridRadios2">
+                        Second radio
+                    </label>
+                </div>
+                <div class="form-check disabled">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
+                    <label class="form-check-label" for="gridRadios3">
+                        Third disabled radio
+                    </label>
+                </div>
+            </div>
+        </div>
+    </fieldset>
+    <div class="form-group row">
+        <div class="col-md-2">Checkbox</div>
+        <div class="col-md-10">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck1">
+                <label class="form-check-label" for="gridCheck1">
+                    Example checkbox
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="form-group row">
+        <div class="col-md-10">
+            <button type="submit" class="btn btn-primary">Sign in</button>
+        </div>
+    </div>
+</form>
+"""
+
+#===================
+  'BS Form Inline':
+    'prefix': 'bsFormInline'
+    'body': """
+<form class="form-inline">
+    <div class="form-group mb-2">
+        <label for="staticEmail2" class="sr-only">Email</label>
+        <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="email@example.com">
+    </div>
+    <div class="form-group mx-sm-3 mb-2">
+        <label for="inputPassword2" class="sr-only">Password</label>
+        <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+    </div>
+    <button type="submit" class="btn btn-primary mb-2">Confirm identity</button>
+</form>
+"""
+#===================
+  'BS Input Group':
+    'prefix': 'bsInputGrp'
+    'body': """
+<div class="input-group mb-3">
+    <div class="input-group-prepend">
+        <span class="input-group-text" id="basic-addon1">@</span>
+    </div>
+    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+"""
+
+#===================
+  'BS Input Group with Checkbox':
+    'prefix': 'bsInputGrpChk'
+    'body': """
+<div class="input-group mb-3">
+    <div class="input-group-prepend">
+        <div class="input-group-text">
+              <input type="checkbox" aria-label="Checkbox for following text input">
+        </div>
+    </div>
+    <input type="text" class="form-control" aria-label="Text input">
+</div>
+"""
+
+#===================
+  'BS Input Group with Radio':
+    'prefix': 'bsInputGrpChk'
+    'body': """
+<div class="input-group mb-3">
+    <div class="input-group-prepend">
+        <div class="input-group-text">
+              <input type="radio" aria-label="Radio button for following text input">
+        </div>
+    </div>
+    <input type="text" class="form-control" aria-label="Text input">
+</div>
+"""
+
+#===================
+  'BS Input Group with Button':
+    'prefix': 'bsInputGrpButton'
+    'body': """
+<div class="input-group mb-3">
+    <div class="input-group-prepend">
+        <button class="btn btn-outline-secondary" type="button" id="button-addon1">Button</button>
+    </div>
+    <input type="text" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+</div>
+"""
+
+#===================
+  'BS Input Group with Dropdown':
+    'prefix': 'bsInputGrpDropdown'
+    'body': """
+<div class="input-group mb-3">
+    <div class="input-group-prepend">
+        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</button>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+            <div role="separator" class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Separated link</a>
+        </div>
+    </div>
+    <input type="text" class="form-control" aria-label="Text input with dropdown button">
+</div>
+"""
+#===================
+  'BS Jumbotron':
+    'prefix': 'bsJumbotron'
+    'body': """
+<div class="jumbotron">
+    <h1 class="display-4">Hello, world!</h1>
+    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    <hr class="my-4">
+    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+</div>
+"""
+
+#===================
+  'BS Jumbotron Fluid':
+    'prefix': 'bsJumbotronFluid'
+    'body': """
+<div class="jumbotron jumbotron-fluid">
+    <h1 class="display-4">Hello, world!</h1>
+    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    <hr class="my-4">
+    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+</div>
+"""
+#===================
+  'BS Media Object':
+    'prefix': 'bsMediaObject'
+    'body': """
+<div class="media">
+    <!-- align-self-center (center image) | align-self-end (bottom image) -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/dc/Kazimir_Malevich%2C_1915%2C_Black_Suprematic_Square%2C_oil_on_linen_canvas%2C_79.5_x_79.5_cm%2C_Tretyakov_Gallery%2C_Moscow.jpg" class="mr-3" alt="...">
+    <div class="media-body">
+        <h5 class="mt-0">Media heading</h5>
+        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+    </div>
+</div>
+"""
+
+#===================
+  'BS Media Object List':
+    'prefix': 'bsMediaObjectList'
+    'body': """
+<ul class="list-unstyled">
+    <li class="media">
+        <!-- align-self-center (center image) | align-self-end (bottom image) -->
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/dc/Kazimir_Malevich%2C_1915%2C_Black_Suprematic_Square%2C_oil_on_linen_canvas%2C_79.5_x_79.5_cm%2C_Tretyakov_Gallery%2C_Moscow.jpg" class="mr-3" alt="...">
+        <div class="media-body">
+            <h5 class="mt-0 mb-1">List-based media object</h5>
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+        </div>
+    </li>
+    <li class="media my-4">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/dc/Kazimir_Malevich%2C_1915%2C_Black_Suprematic_Square%2C_oil_on_linen_canvas%2C_79.5_x_79.5_cm%2C_Tretyakov_Gallery%2C_Moscow.jpg" class="mr-3" alt="...">
+        <div class="media-body">
+            <h5 class="mt-0 mb-1">List-based media object</h5>
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+        </div>
+    </li>
+    <li class="media">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/dc/Kazimir_Malevich%2C_1915%2C_Black_Suprematic_Square%2C_oil_on_linen_canvas%2C_79.5_x_79.5_cm%2C_Tretyakov_Gallery%2C_Moscow.jpg" class="mr-3" alt="...">
+        <div class="media-body">
+            <h5 class="mt-0 mb-1">List-based media object</h5>
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+        </div>
+    </li>
+</ul>
+"""
+#===================
+  'BS Modal':
+    'prefix': 'bsModal'
+    'body': """
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    Launch demo modal
+</button>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <!-- modal-sm = modal small | modal-lg = modal large | modal-xl = modal extra large  -->
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+"""
+
+#===================
+  'BS Modal Vertical Center':
+    'prefix': 'bsModalVerticalCenter'
+    'body': """
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+    Launch demo modal
+</button>
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <!-- modal-sm = modal small | modal-lg = modal large | modal-xl = modal extra large  -->
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+"""
+#===================
+  'BS Nav':
+    'prefix': 'bsNav'
+    'body': """
+<!-- justify-content-center = add nav content in the middle | justify-content-end = add nav content on the right -->
+<ul class="nav">
+    <li class="nav-item">
+        <a class="nav-link active" href="#">Active</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+    </li>
+</ul>
+"""
+
+#===================
+  'BS Nav vertical':
+    'prefix': 'bsNavVertical'
+    'body': """
+<ul class="nav flex-column">
+    <li class="nav-item">
+        <a class="nav-link active" href="#">Active</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+    </li>
+</ul>
+"""
+
+#===================
+  'BS Nav tab with content':
+    'prefix': 'bsNavTabContent'
+    'body': """
+<!-- change nav-tabs to nav-pills if you want to display button -->
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+    <li class="nav-item">
+        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+    </li>
+</ul>
+<div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
+    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+</div>
+"""
+
+#===================
+  'BS Nav vertical pills with content':
+    'prefix': 'bsNavVerticalPillsContent'
+    'body': """
+<div class="row">
+    <div class="col-3">
+        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
+            <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a>
+            <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a>
+            <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
+        </div>
+    </div>
+    <div class="col-9">
+        <div class="tab-content" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">...</div>
+            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
+            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
+            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+        </div>
+    </div>
+</div>
+"""
+#===================
+  'BS Navbar':
+    'prefix': 'bsNavbar'
+    'body': """
+<!-- fixed-top | sticky-top | fixed-bottom -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+"""
+#===================
+  'BS Pagination':
+    'prefix': 'bsPagination'
+    'body': """
+<nav aria-label="Page navigation example">
+    <ul class="pagination">
+        <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+            </a>
+        </li>
+        <li class="page-item active">
+            <a class="page-link" href="#">1</a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="#">2</a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="#">3</a>
+        </li>
+        <li class="page-item disabled">
+            <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+            </a>
+        </li>
+    </ul>
+</nav>
+"""
+#===================
+  'BS Popover Top':
+    'prefix': 'bsPopoverTop'
+    'body': """
+<button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+    Popover
+</button>
+"""
+
+#===================
+  'BS Popover Right':
+    'prefix': 'bsPopoverRight'
+    'body': """
+<button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+    Popover
+</button>
+"""
+
+#===================
+  'BS Popover Bottom':
+    'prefix': 'bsPopoverBottom'
+    'body': """
+<button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+    Popover
+</button>
+"""
+
+#===================
+  'BS Popover Left':
+    'prefix': 'bsPopoverLeft'
+    'body': """
+<button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="left" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+    Popover
+</button>
+"""
+#===================
+  'BS Progress':
+    'prefix': 'bsProgress'
+    'body': """
+<div class="progress">
+    <div class="progress-bar bg-danger" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+</div>
+"""
+#===================
+  'BS Scrollspy':
+    'prefix': 'bsScrollspy'
+    'body': """
+<nav id="navbar-example2" class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link" href="#fat">@fat</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#mdo">@mdo</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#one">one</a>
+                <a class="dropdown-item" href="#two">two</a>
+                <div role="separator" class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#three">three</a>
+            </div>
+        </li>
+    </ul>
+</nav>
+<div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+    <h4 id="fat">@fat</h4>
+    <p>...</p>
+    <h4 id="mdo">@mdo</h4>
+    <p>...</p>
+    <h4 id="one">one</h4>
+    <p>...</p>
+    <h4 id="two">two</h4>
+    <p>...</p>
+    <h4 id="three">three</h4>
+    <p>...</p>
+</div>
+"""
+
+#===================
+  'BS Scrollspy List-Group':
+    'prefix': 'bsScrollspyListgroup'
+    'body': """
+<div id="list-example" class="list-group">
+    <a class="list-group-item list-group-item-action" href="#list-item-1">Item 1</a>
+    <a class="list-group-item list-group-item-action" href="#list-item-2">Item 2</a>
+    <a class="list-group-item list-group-item-action" href="#list-item-3">Item 3</a>
+    <a class="list-group-item list-group-item-action" href="#list-item-4">Item 4</a>
+</div>
+<div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
+    <h4 id="list-item-1">Item 1</h4>
+    <p>...</p>
+    <h4 id="list-item-2">Item 2</h4>
+    <p>...</p>
+    <h4 id="list-item-3">Item 3</h4>
+    <p>...</p>
+    <h4 id="list-item-4">Item 4</h4>
+    <p>...</p>
+</div>
+"""
+
+#===================
+  'BS Spinner':
+    'prefix': 'bsSpinner'
+    'body': """
+<div class="spinner-border text-danger" role="status">
+    <span class="sr-only">Loading...</span>
+</div>
+"""
+
+#===================
+  'BS Spinner Grow':
+    'prefix': 'bsSpinnerGrow'
+    'body': """
+<div class="spinner-grow text-danger" role="status">
+    <span class="sr-only">Loading...</span>
+</div>
+"""
+
+#===================
+  'BS Toast':
+    'prefix': 'bsToast'
+    'body': """
+<div aria-live="polite" aria-atomic="true" style="position: relative; min-height: 200px;">
+    <div class="toast" style="position: absolute; top: 0; right: 0;">
+        <div class="toast-header">
+            <img src="https://picorealm.net/images/bootstrap.png" class="rounded mr-2" alt="..." style="width: 64px;">
+            <strong class="mr-auto">Bootstrap</strong>
+            <small>11 mins ago</small>
+            <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="toast-body">
+            Hello, world! This is a toast message.
+        </div>
+    </div>
+</div>
+"""
+#===================
+  'BS Tooltip':
+    'prefix': 'bsTooltip'
+    'body': """
+<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+    Tooltip on top
+</button>
+"""
+#===================
+  'BS HTML5 Bootstrap Skeleton':
+    'prefix': 'bsHtml'
+    'body': """
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <title>Hello, world!</title>
+    </head>
+    <body>
+        <h1>Hello, world!</h1>
+        $1
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
+"""

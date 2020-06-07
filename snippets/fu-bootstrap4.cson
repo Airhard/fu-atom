@@ -1,0 +1,292 @@
+'.text.html':
+
+  'Breadcrumb':
+    'prefix': 'breadcrumb'
+    'body': """
+    <ol class="breadcrumb" style="margin-bottom: 5px;">
+      <li><a href="#">${1:Home}</a></li>
+      <li><a href="#">${2:Library}</a></li>
+      <li class="active">${3:Data}</li>
+    </ol>
+    """
+
+  'Alerts':
+    'prefix': 'alert'
+    'body': """
+    <div class="alert alert-${1:success}" role="alert">
+      $2
+    </div>
+    """
+
+  'Alerts link':
+    'prefix': 'alert-link'
+    'body': """
+    <div class="alert alert-${1:success}" role="alert">
+      $2<a href="${3:#}" class="alert-link">$4</a>.
+    </div>
+    """
+
+  'Alerts dismissing':
+    'prefix': 'alert-dismissible'
+    'body': """
+    <div class="alert alert-${1:warning} alert-dismissible fade in" role="alert">
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+      $2
+    </div>
+    """
+
+  'Jumbotron':
+    'prefix': 'jumbotron'
+    'body': """
+    <div class="jumbotron">
+      <h1 class="display-3">$1</h1>
+      <p class="lead">$2</p>
+    </div>
+    """
+
+  'Jumbotron fluid':
+    'prefix': 'jumbotron-fluid'
+    'body': """
+    <div class="jumbotron">
+      <h1 class="display-3">$1</h1>
+      <p class="lead">$2</p>
+    </div>
+    """
+
+  'Labels':
+    'prefix': 'label-'
+    'body': """
+    <span class="label label-${1:default}">$2</span>
+    """
+
+  'Pill labels':
+    'prefix': 'label-pill'
+    'body': """
+    <span class="label label-pill label-${1:default}">$2</span>
+    """
+
+  'Modal':
+    'prefix': 'modal'
+    'body': """
+    <button class="btn btn-primary" data-toggle="modal" data-target="#${2:myModal}">${4:Launch demo modal}</button>
+    <div id="${2:myModal}" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="${3:myModalLabel}" aria-hidden="true">
+      <div class="modal-dialog${1: modal-lg}">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="${3:myModalLabel}">Modal title</h4>
+          </div>
+          <div class="modal-body">
+            ${5:...}
+          </div>
+          <div class="modal-footer">
+            ${6:...}
+          </div>
+        </div>
+      </div>
+    </div>
+    """
+
+  'Figures':
+    'prefix': 'figure-'
+    'body': """
+    <figure class="figure">
+      <img src="${1:...}" class="figure-img img-fluid img-rounded" alt="${2:...}">
+      <figcaption class="figure-caption">${3:...}</figcaption>
+    </figure>
+    """
+
+  'Images':
+    'prefix': 'img-'
+    'body': """
+    <img src="${3:...}" class="img-${1:fluid}${2: pull-xs-left}" alt="${4:...}">
+    """
+
+  'Text muted':
+    'prefix': 'text-muted'
+    'body': """
+    <h${1:3}>
+      ${2:Fancy display heading}
+      <small class="text-muted">${3:With faded secondary text}</small>
+    </h${1:3}>
+    """
+
+  'Display headings':
+    'prefix': 'display'
+    'body': """
+    <h${1:1} class="display-${2:2}">${3:Display headings}</h${1:1}>
+    """
+
+  'Lead':
+    'prefix': 'lead'
+    'body': """
+    <p class="lead">${1:Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.}</p>
+    """
+
+  'Blockquotes':
+    'prefix': 'blockquote-'
+    'body': """
+    <blockquote class="blockquote${1: blockquote-reverse}">
+      <p class="m-b-0">${2:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.}</p>
+      <footer class="blockquote-footer">${3:Someone famous in <cite title="Source Title">Source Title</cite>}</footer>
+    </blockquote>
+    """
+
+  'List unstyled':
+    'prefix': 'list-uns'
+    'body': """
+    <ul class="list-unstyled">
+      <li>$1</li>
+    </ul>
+    """
+
+  'List inline':
+    'prefix': 'list-inline'
+    'body': """
+    <ul class="list-inline">
+      <li class="list-inline-item">${1:Lorem ipsum}</li>
+      <li class="list-inline-item">${1:Phasellus iaculis}</li>
+      <li class="list-inline-item">${1:Nulla volutpat}</li>
+    </ul>
+    """
+
+  'Horizontal description':
+    'prefix': 'dl-horizontal'
+    'body': """
+    <dl class="dl-horizontal">
+      <dt class="col-sm-3">${1:Description lists}</dt>
+      <dd class="col-sm-9">${2:A description list is perfect for defining terms.}</dd>
+      <dd class="col-sm-9${3: col-sm-offset-3}">${4:Donec id elit non mi porta gravida at eget metus.}</dd>
+    </dl>
+    """
+
+  'Fontawesome Icon':
+    'prefix': 'fa'
+    'body': """
+    <i class="fa fa-$1"></i>
+    """
+
+  'Container':
+    'prefix': 'con'
+    'body': """
+    <div class="container">
+      $1
+    </div>
+    """
+
+  'Container Fluid':
+    'prefix': 'conf'
+    'body': """
+    <div class="container-fluid">
+      $1
+    </div>
+    """
+
+  'Row':
+    'prefix': 'row'
+    'body': """
+    <div class="row">
+      $1
+    </div>
+    """
+
+  'Column':
+    'prefix': 'col-'
+    'body': """
+    <div class="col-${1:sm|md|lg|xl}-${2:1-12}">
+      $3
+    </div>
+    """
+
+  'Column Small':
+    'prefix': 'col-sm'
+    'body': """
+    <div class="col-sm-${1:1-12}">
+      $0
+    </div>
+    """
+
+  'Column Medium':
+    'prefix': 'col-md'
+    'body': """
+    <div class="col-md-${1:1-12}">
+      $0
+    </div>
+    """
+
+  'Column Large':
+    'prefix': 'col-lg'
+    'body': """
+    <div class="col-lg-${1:1-12}">
+      $0
+    </div>
+    """
+
+  'Column Extra Large':
+    'prefix': 'col-xl'
+    'body': """
+    <div class="col-xl-${1:1-12}">
+      $0
+    </div>
+    """
+
+  'Media object':
+    'prefix': 'media'
+    'body': """
+    <div class="media">
+      <img class="mr-3" src="$1" alt="Generic placeholder image">
+      <div class="media-body">
+        <h5 class="mt-0">Media heading</h5>
+        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+        $2
+      </div>
+    </div>
+    """
+
+  'Basic HTML Template':
+    'prefix': 'fu-html'
+    'body': """
+    <!doctype html>
+    <html lang="de">
+      <head>
+        <title>$1</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+      </head>
+      <body>
+        $2
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+      </body>
+    </html>
+    """
+
+  'Minimal HTML Template (No Comment)':
+    'prefix': 'html-min'
+    'body': """
+    <!doctype html>
+    <html lang="de">
+      <head>
+        <title>$1</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+      </head>
+      <body>
+        $2
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+      </body>
+    </html>
+    """
