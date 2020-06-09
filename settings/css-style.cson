@@ -1,0 +1,11 @@
+'.text.html, .text.php, .text.css, .source.js':
+  'editor':
+    'completions': [
+      # Background Colors
+      'bg-green'
+      'bg-gray'
+      # Colors
+      'green'
+      'white'
+      'grey'
+    ]
