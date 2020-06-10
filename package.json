@@ -3,8 +3,7 @@
   "main": "./lib/fu-atom",
   "version": "0.1.1",
   "description": "The FuYu package",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "fu-atom:toggle"
   },
