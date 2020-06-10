@@ -13,6 +13,10 @@
   "engines": {
     "atom": ">=1.21.0 <2.0.0"
   },
-  "dependencies": {
+  "dependencies": {},
+  "apmInstallSource": {
+    "type": "git",
+    "source": "https://github.com/Airhard/fu-atom",
+    "sha": "9495f844ebd105a64e6b79c38ba87bae58ebe0a5"
   }
 }
