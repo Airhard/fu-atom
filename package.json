@@ -15,7 +15,7 @@
   "dependencies": {},
   "apmInstallSource": {
     "type": "git",
-    "source": "https://github.com/Airhard/fu-atom",
-    "sha": "9495f844ebd105a64e6b79c38ba87bae58ebe0a5"
+    "source": "https://github.com/airhard/fu-atom",
+    "sha": "77a92200799aac71443097486dbc74a75c3a6f1d"
   }
 }
