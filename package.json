@@ -13,9 +13,10 @@
   "engines": {
     "atom": ">=1.21.0 <2.0.0"
   },
-  "dependencies": {[
-    atom-ide-ui,
-    ide-python
-  ]
+  "dependencies": {
+    [
+      atom-ide-ui,
+      ide-python
+    ]
   }
 }
